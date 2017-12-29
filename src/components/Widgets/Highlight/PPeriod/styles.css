@@ -1,0 +1,32 @@
+.premPeriod {
+    margin-bottom: 10px;
+}
+
+.charts :global(.ant-card) {
+  background-color: #61A5E8;
+  color: #fff;
+}
+
+.charts :global(.ant-card-body) {
+  padding: 10px;
+}
+
+
+.data {
+  float: left;
+}
+
+.number {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  padding-left: 5px;  
+} 
+
+.label {
+  padding-left: 5px;
+}
+
+.progress {
+  float: right;
+}

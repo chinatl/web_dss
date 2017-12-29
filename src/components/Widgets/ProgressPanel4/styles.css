@@ -1,0 +1,98 @@
+.headContainer {
+  position: relative;
+  text-align: center;
+}
+
+.headContainer img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  vertical-align: middle;
+  border: 0;
+}
+
+.headTitle {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: 0 0 3px rgba(0,0,0,0.8);
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.branchSelect {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.folded {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.progressContainer :global(.ant-progress-text) {
+  font-size: 12px;
+}
+.progressContainer :global(.ant-progress-status-success .ant-progress-text) {
+  	font-size: 12px;
+}
+.progressItem :global(.ant-progress-status-success p) {
+  	color:red
+}
+.progressP :global(.ant-progress-status-success p) {
+  	color:red
+}
+.progressB :global(.ant-progress-status-success p) {
+  	color:red
+}
+.progressG :global(.ant-progress-status-success p) {
+  	color:red
+}
+.progressItem {
+  padding: 10px 20px 10px 20px;
+}
+
+.progressText {
+  text-align: center;
+}
+
+.progressNum {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.progressLabel {
+  font-size: 12px;
+  line-height: 28px;
+  color: #919191;
+}
+
+.progressChannel {
+  text-align: center;
+  color: #919191;
+  padding: 6px;
+  margin: 10px 0px 10px 0px;
+}
+
+
+.progressHr {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.progressP :global(.ant-progress-circle-path) {
+  stroke: #E16757
+}
+
+.progressG :global(.ant-progress-circle-path) {
+  stroke: #61A5E8
+}
+
+.progressB :global(.ant-progress-circle-path) {
+  stroke: #7ecf51
+}

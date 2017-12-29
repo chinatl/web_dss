@@ -1,0 +1,56 @@
+
+.itemStandardSF :global(.ant-card) {
+  background-color: #61A5E8;
+}
+
+.itemT50 :global(.ant-card) {
+  background-color: #7ecf51;
+}
+
+.itemRecruitP :global(.ant-card) {
+  background-color: #eecb5f;
+}
+
+.item {
+  padding: 5px 30px 2px 30px;
+  height: 88px;
+}
+
+.indexName {
+  font-size: 12px;
+}
+.data {
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.col {
+  border-right: solid rgba(242, 251, 251, 0.2) 1px;
+}
+.datacol {
+  border-top: 1px solid rgba(242, 251, 251, 0.2);
+  border-left: solid rgba(242, 251, 251, 0.2) 1px;
+  border-right: solid rgba(242, 251, 251, 0.2) 1px;
+  text-align: center;
+  position: relative;
+}
+
+.number {
+  font-size: 28px;
+  line-height: 1.8;
+  font-weight: 600;
+  padding-left: 5px;  
+}
+
+.label {
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+.SubNumber {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+  

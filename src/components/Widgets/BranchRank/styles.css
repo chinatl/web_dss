@@ -1,0 +1,59 @@
+.top{
+  color: navy;
+}
+
+.top :global(.ant-card-head) {
+  border-bottom: 0px;
+  background-color: #FAE9E7;
+}
+
+.top table {
+  border-collapse: collapse;
+}
+
+.top :global(.ant-table-thead) {
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+
+.top :global(.ant-table-thead) > tr > th {
+  background: #FAE9E7;
+  font-weight: bold;
+}
+
+
+/*
+.top :global(.ant-table-tbody) >tr:nth-of-type(odd) {
+background-color:#f5f5f5
+}
+*/
+
+.rank {
+  padding: 3px !important;
+  text-align: center;
+  font-size: 14px;
+  color: #49a9ee;
+}
+
+.rank img{
+  height: 24px;
+  vertical-align:middle;
+}
+
+.amnt {
+  font-size: 14px;
+  color: #B44049;
+  font-weight: 600;
+  text-align: right;
+}
+
+.rank1row {
+  background-color: #FCEFEE !important;
+}
+.rank2row {
+  background-color: #FDF5F4 !important;
+}
+.rank3row {
+  background-color: #FEFAF9 !important;
+}
+

@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    background-color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.sheet_module {
+	width: 48%;
+	overflow: hidden;
+}
+.sheet {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #F15145;
+    color: #fff;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.push {
+    float: left;
+	font-size: 30px;
+}
+
+.numer {
+    font-weight: bold;
+    float: right;
+    text-align: left;
+	margin-left: 10px;
+	text-align: right;
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.numer span {
+    font-weight: normal;
+	font-size: 20px;
+}
+.charts {
+    background-color: #fff;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.charts .more {
+}
+
+

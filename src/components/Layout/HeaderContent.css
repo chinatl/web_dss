@@ -1,0 +1,24 @@
+.logo {
+  width: 403px;
+  height: 59px;
+  background-image: url('../../assets/images/logo_b.png');
+  margin: 2px 28px 2px 0;
+  float: left;
+}
+
+.branch {
+  float: right;
+  width: 150px;
+}
+
+.user {
+  float: right;
+  width: 120px;
+}
+
+.avatar {
+  height: 28px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+

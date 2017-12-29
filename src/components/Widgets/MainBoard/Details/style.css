@@ -1,0 +1,50 @@
+.chartslegend{
+  margin-top: 18px;
+  width:100%;
+  display: table;
+}
+
+.chartslegend td{
+  vertical-align: middle;
+  padding: 1px 0;
+  font-size: 14px;
+}
+
+.legendvalue{
+  text-align: right;
+}
+
+
+.summary {
+  padding: 8px 0px 36px 0px;
+  margin: 0px 0px 36px 0px;
+  border-bottom: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+
+
+.summaryNum {
+  font-size: 24px;
+  line-height: 1.5;
+  float: left;
+}
+
+
+.summaryRight {
+  float: right;
+  text-align: right;
+}
+
+.summaryPlan {
+  font-size: 14px;
+  color: #919191;
+}
+
+.summaryLabel {
+  font-size: 16px;
+}
+
+.summaryBottom {
+  clear: both;
+}
+

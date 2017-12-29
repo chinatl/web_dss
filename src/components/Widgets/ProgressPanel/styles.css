@@ -1,0 +1,104 @@
+
+.progressCard :global(.ant-card) {
+  background-color: #E16757;
+}
+
+.progressCardP :global(.ant-card) {
+  background-color: #61A5E8;
+}
+
+.progressCardG :global(.ant-card) {
+  background-color: #7ecf51;
+}
+
+.progressCardB :global(.ant-card) {
+  background-color: #eecb5f;
+}
+
+
+
+.progressCard :global(.ant-progress-circle-path) {
+  stroke: #fff;
+}
+
+.progressCard :global(.ant-progress-text) {
+  font-size: 14px;
+}
+.progressCard :global(.ant-progress-status-success .ant-progress-text) {
+  color:#E16757
+}
+
+.progressCard :global(.ant-progress-circle-trail) {
+  stroke: #bd2636;
+}
+
+
+.progressCardP :global(.ant-progress-circle-trail) {
+  stroke: #3A6FB5;
+}
+
+.progressCardG :global(.ant-progress-circle-trail) {
+  stroke: #6EA038;
+}
+
+.progressCardB :global(.ant-progress-circle-trail) {
+  stroke: #C48438;
+}
+
+.progressCard :global(.ant-card-body) {
+  padding: 5px 0px 5px 0px;
+  color: #fff;
+}
+
+.item {
+  padding: 5px;
+  height: 145px;
+}
+
+.charts {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.progressLabel {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.completed {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.percent {
+  font-size: 14px;
+}
+
+.indexName {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.number {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  padding-left: 5px;  
+} 
+
+.label {
+  padding-left: 5px;
+}
+
+.progress {
+  float: left;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px; 
+  height: 32px;
+  line-height: 32px;
+}

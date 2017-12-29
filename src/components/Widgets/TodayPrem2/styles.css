@@ -1,0 +1,19 @@
+.item{
+  padding: 5px;
+}
+
+.label {
+  float: left;
+}
+
+.city {
+  color: #919191;
+}
+
+.value {
+  color: #000;
+}
+
+.progress {
+  float: right;
+}

@@ -1,0 +1,11 @@
+
+.branch {
+  float: right;
+  width: 150px;
+}
+
+
+.branchList :global(.ant-dropdown-menu) {
+  left:auto;
+  right: 102%;
+}

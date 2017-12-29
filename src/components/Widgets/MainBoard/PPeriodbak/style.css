@@ -1,0 +1,21 @@
+.summary {
+  text-align: right;
+  font-size: 28px;
+  line-height: 1.8;
+  color: #404040;
+}
+
+.progress {
+  margin: 10px 0 10px 0;
+}
+
+.content {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #404040;
+}
+
+.label {
+  color: #919191;
+  margin-right: 5px;
+}

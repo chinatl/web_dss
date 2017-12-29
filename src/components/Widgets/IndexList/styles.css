@@ -1,0 +1,31 @@
+.indexList :global(.ant-table-header) {
+  overflow: hidden !important;
+  height: 58px;
+}
+
+.indexList :global(.ant-card-extra) {
+  top: 8px;
+}
+
+.indexList :global(.ant-form-item) {
+  margin-bottom: 5px;
+}
+
+.indexList :global(.ant-table-thead) > tr > th {
+  background: #fff;
+  font-weight: bold;
+}
+
+.indexList :global(.ant-table-thead) {
+  border-bottom: 2px solid #d2eafb;
+}
+
+.indexList :global(.ant-table-tbody) >tr:nth-of-type(odd) {
+  background-color:#f5f5f5;
+}
+
+.selectedRow {
+  background-color:#add8f7 !important;
+}
+
+

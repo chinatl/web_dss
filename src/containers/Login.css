@@ -1,0 +1,89 @@
+.header {
+  background: #fff;
+  border-bottom: 1px solid #d1d4d7;
+  padding: 0 25px;
+}
+
+.mainContent {
+  background: #eeeeee;
+  padding: 0;
+}
+
+.banner {
+  margin: 50px auto;
+  padding: 100px;
+}
+.ghost{
+  display: table;
+  width: 100%;
+}
+.warn{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow:10px;
+}
+
+.login {
+  /*background: url('../assets/images/bg.jpg') center top repeat-x rgb(255, 255, 255);*/
+  background: linear-gradient(to right,#3A85C7,#43A1DA,#2196DB);
+  min-height: 600px;
+}
+
+.form {
+  margin: 160px auto;
+  width: 50%;
+  padding: 36px;
+  box-shadow: 0 0 100px rgba(0,0,0,.08);
+  background: #fff;
+}
+
+.form button {
+  width: 100%;
+}
+
+.form p {
+  color: rgb(204, 204, 204);
+  text-align: center;
+  margin-top: 16px;
+ }
+
+.form p span {
+  line-height: 20px;
+  height: 20px;
+  vertical-align:middle;
+}
+
+.form p span :first-child {
+  margin-right: 16px;
+}
+
+.form p img {
+  width: 20px;
+  vertical-align:middle;
+  margin-right: 5px;
+}
+
+.logo {
+  text-align: center;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.logo img {
+  width: 180px;
+}
+
+.logo span {
+  vertical-align: text-bottom;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: right;
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}

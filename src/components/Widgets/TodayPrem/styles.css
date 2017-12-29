@@ -1,0 +1,94 @@
+
+.summary :global(.ant-card) {
+  background-color: #E16757;
+  color: #fff;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom: 0px;
+}
+
+.summary :global(.ant-card-body) {
+  padding: 10px;
+  height: 120px;
+}
+
+.data {
+  float: left;
+}
+
+.charts {
+  float: right;
+}
+
+.number {
+  font-size: 28px;
+  line-height: 1.8;
+  font-weight: 600;
+  padding-left: 5px;  
+}
+
+.label {
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.more {
+  padding-left: 15px;
+  font-size: 10px;
+  float: right;
+  display: none;
+}
+
+.datagrid :global(.ant-card) {
+  background-color: #E16757;
+  color: #fff;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top: 0px;
+}
+
+.datagrid :global(.ant-card-body) {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 0px 10px 0px 10px;
+}
+
+.datacol {
+  border-top: 1px solid rgba(242, 251, 251, 0.2);
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  position: relative;
+}
+
+.datacol:after {
+  position: absolute;
+  top:10%;
+  height: 80%;    
+  left:0;
+  content: '';    
+  width:0;    
+  border-left: solid rgba(242, 251, 251, 0.2) 1px;
+  vertical-align: center;
+}
+
+.datacol:first-child:after{
+  border-left: 0px;
+}
+
+.dataNumber {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.details  :global(.slick-slide) {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.details  :global(.slick-slide)  :global(h3) {
+  color: #fff;
+}

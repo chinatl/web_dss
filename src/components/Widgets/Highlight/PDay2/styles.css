@@ -1,0 +1,56 @@
+.charts :global(.ant-card) {
+  background-color: #eecb5f;
+  color: #fff;
+}
+
+.premDay {
+  margin-bottom: 10px;
+}
+
+.charts :global(.ant-card) {
+  background-color: #7ecf51;
+  color: #fff;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom: 0px;
+}
+
+.charts :global(.ant-card-body) {
+  padding: 10px;
+}
+
+.number {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  padding-left: 5px;  
+}
+
+.label {
+  padding-left: 5px;
+}
+
+.echarts {
+  height: 100px;
+}
+
+.datagrid :global(.ant-card-body) {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 0;
+}
+
+.datacol {
+  padding: 5px;
+  text-align: center;
+}
+
+.dataNumber {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+        
+.datacolBr {
+  border-right: 1px solid rgba(0, 0, 0, 0.0470588)
+}
